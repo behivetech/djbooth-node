@@ -1,0 +1,19 @@
+{
+  "name": "djbooth-node",
+  "version": "1.0.0",
+  "description": "Node server for djbooth",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bruce Smith",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.16.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "ws": "^7.0.0"
+  }
+}
